@@ -1,5 +1,5 @@
 .off-screen-nav {
-    @include bg($bg-dark);
+    @include bg($bg-darker);
     @include size(100vh, 100%);
     padding: 2rem;
     position: fixed;
@@ -13,19 +13,9 @@
     &.show {
         right: 0;
     }
-    .header-container {
-        margin-top: 3rem;
-        text-align: center;
-        h1 {
-            color: white;
-        }
-        h2 {
-            color: $primary;
-            font-weight: 300;
-        }
-    }
+    
     ul {
-        margin-top: 2rem;
+        margin-top: 4rem;
         li {
             @include size(100%, auto);
             a {

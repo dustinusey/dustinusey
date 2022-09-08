@@ -1,0 +1,10 @@
+button {
+    cursor: pointer;
+    border: none;
+    &.primary {
+        @include bg($primary);
+        @include radius(5px);
+        padding: 1rem;
+        color: $bg-darker;
+    }
+}

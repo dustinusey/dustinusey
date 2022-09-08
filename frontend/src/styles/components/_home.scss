@@ -2,19 +2,50 @@ section.home {
     height: 100vh;
     padding: 2rem;
     color: white;
-    .hero-container {
-
-    @include flex(column, nowrap, space-evenly, center);
+    .wrapper {
         height: 100%;
-    }
-    .copy-container {
-        p {
-            font-weight: 300;
+        .hero-container {
+            @include flex(column, nowrap, space-evenly, center);
+            height: 100%;
+            .copy-container {
+                p {
+                    font-weight: 300;
+                }
+                p.name {
+                    font-weight: 400;
+                    color: $primary;
+                    font-size: 2.5rem;
+                }
+                button {
+                    margin-top: 1rem;
+                    font-size: 1rem;
+                    width: 100%;
+                }
+            }
+            @include break(medium) {
+                flex-direction: row;
+                padding-left: 5rem;
+                .memoji-container,
+                .copy-container {
+                    width: 50%;
+                }
+                .memoji-container {
+                    order: 1;
+                    img {
+                        margin: 0 auto;
+                        display: block;
+                    }
+                }
+                .copy-container {
+                    padding: 3rem;
+                    padding-left: 0;
+                    order: 0;
+                    button {
+                        width: auto;
+                    }
+                }
+            }
         }
-        p.name {
-            font-weight: 400;
-            color: $primary;
-            font-size: 2.5rem;
-        }
     }
+    
 }
