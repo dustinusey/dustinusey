@@ -1,4 +1,8 @@
 nav {
+    @include bg($bg-darker);
+    position: fixed;
+    top: 0;
+    width: 100%;
     .wrapper {
         @include flex(row, nowrap, space-between, center);
         padding: 2rem;

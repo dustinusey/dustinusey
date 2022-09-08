@@ -12,6 +12,10 @@ ul {
     list-style: none;
 }
 
+img {
+    max-width: 100%;
+}
+
 body {
     @include bg($bg-darker);
     .wrapper {
