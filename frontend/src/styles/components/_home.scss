@@ -38,6 +38,8 @@ section.home {
                 .copy-container {
                     width: 50%;
                     font-size: 1.3rem;
+                    @include glass(5px);
+                    background: transparent;
                 }
                 .memoji-container {
                     order: 1;
