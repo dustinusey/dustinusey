@@ -1,0 +1,35 @@
+@import url("https://fonts.cdnfonts.com/css/gotham-rounded");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gotham Rounded", sans-serif;
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+}
+
+body {
+    @include bg($bg-darker);
+    .wrapper {
+        @include wrapper(1200px);
+    }
+}
+
+a {
+    color: $primary;
+    text-decoration: none;
+    transition: color .2s;
+    &:hover {
+        color: white; 
+    }
+    &:visited {
+        color: $primary;
+        &:hover {
+            color: white;
+        }
+    }
+}

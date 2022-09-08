@@ -1,0 +1,1 @@
+const hamMenu=document.getElementById("hamMenu"),offScreenNav=document.getElementById("offScreenNav"),handleHamAnimations=()=>{hamMenu.classList.toggle("animate"),offScreenNav.classList.toggle("show")};hamMenu.addEventListener("click",handleHamAnimations),offScreenNav.addEventListener("click",handleHamAnimations);

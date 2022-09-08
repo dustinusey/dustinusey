@@ -1,0 +1,82 @@
+nav {
+    .wrapper {
+        @include flex(row, nowrap, space-between, center);
+        padding: 2rem;
+        color: white;
+        height: 70px;
+    }
+    .header-container {
+        h1 {
+            &.desktop {
+                display: none;
+            }
+            @include break(medium) {
+                &.desktop {
+                    display: block;
+                }
+                &.mobile {
+                    display: none;
+                }
+            }
+        }
+        h2 {
+            color: $primary;
+            font-weight: 300;
+            font-size: 1.1rem;
+        }
+    }
+    ul.full-nav {
+        display: none;
+        a {
+            display: block;
+            padding: 1rem;
+        }
+        @include break(medium) {
+            display: flex;
+        }
+    }
+    .ham-menu {
+        @include size(35px, 40px);
+        @include flex(column, nowrap, space-around, center);
+        position: relative;
+        cursor: pointer;
+        @include break(medium) {
+            display: none;
+        }
+        &:hover {
+            .bar {
+                @include bg(white);
+            }
+        }
+        .bar {
+            @include bg($primary);
+            @include size(4px, 90%);
+            @include radius(25px);
+            @include absolute-center;
+            transition: background-color .2s, transform .7s ease, top .7s, left .7s, opacity .3s;
+            &.bar1 {
+                top: 15%;
+            }
+            &.bar2 {
+                top: 50%;
+            }
+            &.bar3 {
+                top: 85%;
+            }
+        }
+        
+        &.animate {
+            .bar1 {
+                top: 50%;
+                transform: translate(-50%, -50%) rotate(-315deg);
+            }
+            .bar2 {
+                opacity: 0;
+            }
+            .bar3 {
+                top: 50%;
+                transform: translate(-50%, -50%) rotate(315deg);
+            }
+        }
+    }
+}
