@@ -11,7 +11,7 @@ offScreenNav.addEventListener('click', handleHamAnimations);
 
 const particalBoard = document.querySelector('.partical-board');
 const config = {
-  particalCount: 5000,
+  particalCount: 150,
 }
 for (let i = 0; i < config.particalCount; i++) {
   createPartical();

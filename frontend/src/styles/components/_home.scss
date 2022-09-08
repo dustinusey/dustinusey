@@ -1,8 +1,11 @@
 section.home {
     background-image: (linear-gradient($bg-dark, $bg-darker));
-    height: 100vh;
+    height: 90vh;
     padding: 2rem;
     color: white;
+    @include break(smedium) {
+        height: 100vh;
+    }
     .wrapper {
         z-index: 50;
         height: 100%;
@@ -34,6 +37,7 @@ section.home {
                 .memoji-container,
                 .copy-container {
                     width: 50%;
+                    font-size: 1.3rem;
                 }
                 .memoji-container {
                     order: 1;
