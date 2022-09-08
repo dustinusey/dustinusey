@@ -15,9 +15,13 @@ ul {
 img {
     max-width: 100%;
 }
+html {
 
+    scroll-behavior: smooth;
+}
 body {
     @include bg($bg-darker);
+    scroll-behavior: smooth;
     .wrapper {
         @include wrapper(1200px);
     }

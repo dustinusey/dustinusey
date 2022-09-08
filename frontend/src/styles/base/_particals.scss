@@ -1,0 +1,35 @@
+.partical-board {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    pointer-events: none;
+  }
+  
+  .partical {
+    opacity: 0;
+    height: 100px;
+    width: 100px;
+    background: white;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  @keyframes particals {
+    10% {
+        opacity: 1;
+    }
+    100% {
+        top: 50%;
+        left: 50%;
+        opacity: 0;
+        height: 0;
+        width: 0;
+        border-radius: 50%;
+        background: $primary;
+        transform: translate(-50%, -50%) rotate(1120deg);
+    }
+  }

@@ -1,8 +1,14 @@
 nav {
-    @include bg($bg-darker);
+    @include bg(rgba($bg-dark, 0.1));
+    @include glass(10px);
     position: fixed;
     top: 0;
     width: 100%;
+    transition: background-color .3s;
+    z-index: 100;
+    &:hover {
+        @include bg(rgba($bg-darker, 0.9));
+    }
     .wrapper {
         @include flex(row, nowrap, space-between, center);
         padding: 2rem;

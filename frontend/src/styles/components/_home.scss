@@ -1,12 +1,18 @@
 section.home {
+    background-image: (linear-gradient($bg-dark, $bg-darker));
     height: 100vh;
     padding: 2rem;
     color: white;
     .wrapper {
+        z-index: 50;
         height: 100%;
         .hero-container {
             @include flex(column, nowrap, space-evenly, center);
             height: 100%;
+            .copy-container,
+            .memoji-container {
+                z-index: 40;
+            }
             .copy-container {
                 p {
                     font-weight: 300;
@@ -40,6 +46,9 @@ section.home {
                     padding: 3rem;
                     padding-left: 0;
                     order: 0;
+                    p.name {
+                        font-size: 4rem;
+                    }
                     button {
                         width: auto;
                     }
