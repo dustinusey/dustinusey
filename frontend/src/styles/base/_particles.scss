@@ -1,4 +1,4 @@
-.partical-board {
+.particle-board {
     position: fixed;
     height: 100vh;
     width: 100%;
@@ -6,10 +6,10 @@
     pointer-events: none;
   }
   
-  .partical {
+  .particle {
     opacity: 0;
-    height: 100px;
-    width: 100px;
+    height:  50px;
+    width: 50px;
     background: white;
     display: block;
     position: absolute;
@@ -23,9 +23,12 @@
     }
   }
 
-  @keyframes particals {
+  @keyframes particles {
     10% {
         opacity: 1;
+    }
+    50% {
+      background: $primary;
     }
     100% {
         top: 50%;
@@ -34,7 +37,11 @@
         height: 0;
         width: 0;
         border-radius: 50%;
-        background: $primary;
         transform: translate(-50%, -50%) rotate(1120deg);
     }
+  }
+
+
+  section.contact {
+    background-image: linear-gradient(($bg-darker, darken($bg-darker, 3%)));
   }

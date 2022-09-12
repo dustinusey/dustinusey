@@ -16,8 +16,8 @@
     <div class="off-screen-nav" id="offScreenNav">
         <ul>
             <li><a href="#home">home</a></li>
-            <li><a href="#">portfolio</a></li>
-            <li><a href="#">contact</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#contact">contact</a></li>
         </ul>
     </div>
     <nav>
@@ -29,8 +29,8 @@
             </div>
             <ul class="full-nav">
                 <li><a href="#home">home</a></li>
-                <li><a href="#">portfolio</a></li>
-                <li><a href="#">contact</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#contact">contact</a></li>
             </ul>
             <div class="ham-menu" id="hamMenu">
                 <div class="bar bar1"></div>
@@ -40,7 +40,7 @@
         </div>
     </nav>
     <section class="home" id="home">
-        <div class="partical-board"></div>
+        <div class="particle-board"></div>
         <div class="wrapper">
             <div class="hero-container">
                 <div class="memoji-container">
@@ -50,12 +50,52 @@
                     <p>Hello World, I'm</p>
                     <p class="name">Dustin Usey</p>
                     <p>A developer focussed on the frontend with an eye for design. I'm happy you're here. Take a look at my work and don't hesitate to reach out. </p>
-                    <button class="primary">View Portfolio</button>
+                    <button class="primary"><a href="#portfolio">View Portfolio</a></button>
                 </div>
             </div>
         </div>
     </section>
+    <section class="portfolio" id="portfolio">
+        <div class="wrapper">
+            <div class="description">
+                <h3>Here's some of my work</h3>
+                <p>Take a look through some of my favorite projects I've worked on. If you'd like to see more than what I have here, checkout my <a href="#">GitHub Profile.</a></p>
+            </div>
+            <div class="project-carousel" id="projectCarousel">
+                    <i class="fa-solid fa-angle-left"></i>
+                    <div class="carousel-content">
+                        <div class="carousel-item">
+                            <div class="window-container">
+                                <div class="header">
+                                    <div class="dot close"></div>
+                                    <div class="dot min"></div>
+                                    <div class="dot max"></div>
+                                </div>
+                                <div class="content">
+                                    <img id="contentImage" src="" alt="">
+                                </div>
+                            </div>
+                            <div class="project-info" id="projectInfo">
+                                <h4></h4>
+                                <p></p>
+                                <div class="btn-group">
+                                    <a href="" class="button empty repo">github repo</a>
+                                    <a href="" class="button empty live">live demo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-angle-right"></i>
+            </div>
+        </div>
+        
+    </section>
+    <section class="contact" id="contact">
+        <div class="wrapper">
+
+        </div>
+    </section>
     
-    <script src="./frontend/dist/scripts/app.js"></script>
+    <script src="./frontend/src/scripts/app.js"></script>
 </body>
 </html>

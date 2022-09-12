@@ -1,11 +1,8 @@
 section.home {
     background-image: (linear-gradient($bg-dark, $bg-darker));
-    height: 90vh;
     padding: 2rem;
     color: white;
-    @include break(smedium) {
-        height: 100vh;
-    }
+    
     .wrapper {
         z-index: 50;
         height: 100%;
@@ -29,6 +26,15 @@ section.home {
                     margin-top: 1rem;
                     font-size: 1rem;
                     width: 100%;
+                    padding: 0;
+                    overflow: hidden;
+                    a {
+                        color: $bg-darker;
+                        height: 100%;
+                        width: 100%;
+                        display: block;
+                        padding: 1rem;
+                    }
                 }
             }
             @include break(medium) {

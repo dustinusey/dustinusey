@@ -1,0 +1,148 @@
+section.portfolio {
+    .wrapper {
+        @include flex(column,nowrap, flex-start, center);
+        padding: 2rem;
+        height: 100%;
+        .description {
+            @include glass(5px);
+            @include bg(transparent);
+            margin: 2rem auto auto;
+            h3 {
+                color: $primary;
+                text-align: center;
+                margin-bottom: 1rem;
+                font-size: 1.3rem;
+                margin-top: 4rem;
+            }
+            p {
+                font-weight: 300;
+                font-size: 1rem;
+                width: 100%;
+                max-width: 500px;
+                text-align: center;
+                margin: 0 auto;
+                color: white;
+            }
+        }
+        .project-carousel {
+            @include bg(transparent);
+            @include glass(2px);
+            @include flex(row, nowrap, space-evenly, center);
+            width: 100%;
+            margin: auto;
+            position: relative;
+            i {
+                @include center-flex;
+                @include radius(50%);
+                @include glass(2px);
+                @include bg(rgba($primary, 0.1));
+                @include same-size(50px);
+                @include absolute-center;
+                top: 120%;
+                cursor: pointer;
+                font-size: 1.5rem;
+                color: white;
+                transition: background-color .3s, color .3s;
+                &:hover {
+                    @include bg($primary);
+                    color: $bg-darker;
+                }
+                &.fa-angle-left {
+                    left: 10%;
+                }
+                &.fa-angle-right {
+                    left: 90%;
+                }
+                @include break(medium) {
+                    @include absolute-center;
+                }
+            }
+            .carousel-item {
+                @include flex(row, nowrap, space-evenly, center);
+                gap: 2rem;
+                @include break(medium) {
+                    max-width: 70%;
+                    margin: 0 auto;
+                }
+                .window-container {
+                    @include radius(5px);
+                    overflow: hidden;
+                    margin-bottom: 1rem;
+                    width: 100%;
+                    display: none;
+                    @include break(medium) {
+                        display: block;
+                    }
+                    .header {
+                        @include bg($window-header);
+                        @include size(30px, 100%);
+                        @include flex(row, nowrap, flex-start, center);
+                        gap: .25rem;
+                        padding: .5rem;
+                        .dot {
+                            @include same-size(12px);
+                            @include radius(50%);
+                            &.close {
+                                @include bg(rgb(234, 93, 93));
+                            }
+                            &.min {
+                                @include bg(rgb(237, 169, 92));
+                            }
+                            &.max {
+                                @include bg(rgb(121, 238, 121));
+                            }
+                        }
+                    }
+                    .content {
+                        @include bg(#eee);
+                        min-height: 100px;
+                        img {
+                            margin: 0 auto;
+                            display: block;
+                        }
+                    }
+                }
+                .project-info {
+                    text-align: center;
+                    color: white;
+                    font-weight: 300;
+                    width: 100%;
+                    max-width: 400px;
+                    margin: 0 auto;
+                    @include break(medium) {
+                        max-width: 100%;
+                        text-align: left;
+                    }
+                    h4 {
+                        color: $primary;
+                        font-size: 1.3rem;
+                        margin-bottom: 1rem;
+                    }
+                    a {
+                        font-size: 1rem;
+                        padding: .5rem;
+                    }
+                    h4, a {
+                        font-weight: 400;
+                    }
+                }
+            }
+            
+        }
+    }
+
+    @include break(medium) {
+        .wrapper {
+            justify-content: center;
+            .description {
+                margin: auto;
+                h3 {
+                    font-size: 2rem;
+                }
+                p {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+}

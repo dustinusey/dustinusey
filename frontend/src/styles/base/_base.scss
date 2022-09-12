@@ -25,6 +25,13 @@ body {
     .wrapper {
         @include wrapper(1200px);
     }
+
+    section {
+        height: 90vh;
+        @include break(smedium) {
+            height: 100vh;
+        }
+    }
 }
 
 a {
@@ -38,6 +45,25 @@ a {
         color: $primary;
         &:hover {
             color: white;
+        }
+    }
+    &.button {
+        @include radius(5px);
+        display: inline-block;
+        font-size: 1.1rem;
+        margin-top: 1rem;
+        padding: 1rem 1.5rem;
+        &.primary {
+            @include bg(rgba($primary, 0.2));
+            color: $primary;
+        }
+        &.secondary {
+            @include bg($bg-darker);
+            color: $primary;
+        }
+        .empty {
+            @include bg($bg-darker);
+            color: $primary;
         }
     }
 }
