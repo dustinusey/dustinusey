@@ -22,7 +22,20 @@ html {
 body {
     @include bg($bg-darker);
     scroll-behavior: smooth;
-    overflow:hidden;
+    &::-webkit-scrollbar {
+        width: 5px;
+      }
+      
+    /* Track */
+    &::-webkit-scrollbar-track {
+    @include bg($bg-darker);
+    }
+      
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+    @include radius(25px);
+    @include bg($primary);
+    }
     .wrapper {
         @include wrapper(1200px);
     }
