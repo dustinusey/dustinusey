@@ -1,0 +1,122 @@
+.contact {
+    .wrapper {
+        @include center-flex;
+        flex-direction: column;
+        height: 100%;
+        padding: 2rem;
+        h3 {
+            color: $primary;
+            text-align: center;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+            margin-top: 4rem;
+            @include break(medium) {
+                font-size: 2rem;
+            }
+        }
+        .window-container {
+            @include radius(5px);
+            overflow: hidden;
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto 2rem auto;
+            .header {
+                @include bg($window-header);
+                @include size(30px, 100%);
+                @include flex(row, nowrap, flex-start, center);
+                gap: .25rem;
+                padding: .5rem;
+                .dot {
+                    @include same-size(12px);
+                    @include radius(50%);
+                    &.close {
+                        @include bg(rgb(234, 93, 93));
+                    }
+                    &.min {
+                        @include bg(rgb(237, 169, 92));
+                    }
+                    &.max {
+                        @include bg(rgb(121, 238, 121));
+                    }
+                }
+            }
+            .content {
+                @include bg(#eee);
+                min-height: 100px;
+                ul.social-list {
+                    @include flex(row, nowrap, center, center);
+                    padding: 1rem 0;
+                    a {
+                        padding: 1rem;
+                        display: block;
+                        font-size: 1.5rem;
+                        color: $bg-darker;
+                        transition: color .3s;
+                        @include break(medium) {
+                            font-size: 2rem;
+                        }
+                        &:hover {
+                            color: $primary;
+                        }
+                    }
+                }
+                form {
+                    padding: 1rem;
+                    @include break(medium) {
+                        padding: 2rem;
+                    }
+                    fieldset {
+                        border: none;
+                    }
+                    .group {
+                        @include flex(column, nowrap, space-evenly, flex-start);
+                        margin: 1rem auto;
+                        @include break(medium) {
+                            margin: 3rem auto;
+                        }
+                        &:first-of-type {
+                            margin-top: 0;
+                        }
+                        &:last-of-type {
+                            margin-bottom: 1rem;
+                        }
+                        label {
+                            min-width: 150px;
+                            margin-bottom: .5rem;
+                        }
+                        input, textarea {
+                            @include radius(5px);
+                            @include bg(white);
+                            width: 100%;
+                            padding: 1rem;
+                            border: none;
+                            border: 2px solid transparent;
+                            transition: border .2s ease;
+                            outline: none;
+                            &:focus {
+                                border-color: $primary;
+                            }
+                        }
+                        @include break(medium) {
+                            textarea {
+                                min-height: 150px;
+                            }
+                        }
+                    }
+                    button {
+                        @include bg($primary);
+                        @include radius(5px);
+                        border: none;
+                        color: $bg-darker;
+                        color:white;
+                        padding: 1rem 1.5rem;
+                        width: 100%;
+                        &.disabled {
+                            opacity: 0.3;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
