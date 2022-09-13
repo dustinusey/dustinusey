@@ -45,11 +45,32 @@ function positionParticle(index) {
 // load project data
 const projectData = [
   {
+    name: "Personal Portfolio",
+    description: "I use my knowledge of HTML and CSS to turn this pre-made portfolio into my own.",
+    githubLink: "",
+    livedemoLink: "",
+    thumbnail: "./assets/proj1.png",
+  },
+  {
+    name: "Mobile-first Responsive Layout",
+    description: "Taking a mobile-first approach, I created a responsive layout that looks great on any device. Built from scratch using just HTML, CSS, and some mockups.",
+    githubLink: "",
+    livedemoLink: "",
+    thumbnail: "./assets/proj2.png",
+  },
+  {
     name: "Online Registration Form",
     description: "I used HTML and CSS to create a fully responsive registration form for users attending a conference.",
     githubLink: "",
     livedemoLink: "",
     thumbnail: "./assets/proj3.png",
+  },
+  {
+    name: "Web Style Guide (SASS)",
+    description: "I took this pre-built style guide using CSS and converted it to use SCSS.",
+    githubLink: "",
+    livedemoLink: "",
+    thumbnail: "./assets/proj4.png",
   },
   {
     name: "Interactive Photo Gallery",
