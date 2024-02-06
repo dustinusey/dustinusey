@@ -9,8 +9,6 @@ I'm a passionate full-stack developer based in [Louisiana] 🤓
 <br>
 <span><img src="https://img.shields.io/badge/Treehouse-282C34?logo=treehouse&logoColor=5FCF80" alt="Treehouse logo" title="Treehouse" height="30" /></span>
 &nbsp;
-<span><img src="https://img.shields.io/badge/Figma-282C34?logo=figma&logoColor=1062FB" alt="Figma logo" title="Figma" height="30" /></span>
-&nbsp;
 <span><img src="https://img.shields.io/badge/JavaScript-282C34?logo=javascript&logoColor=F7DF1E" alt="JavaScript logo" title="JavaScript" height="30" /></span>
 &nbsp;
 <span><img src="https://img.shields.io/badge/ReactJS-282C34?logo=react&logoColor=61DAFB" alt="ReactJS logo" title="ReactJS" height="30" /></span>
@@ -24,6 +22,8 @@ I'm a passionate full-stack developer based in [Louisiana] 🤓
 <span><img src="https://img.shields.io/badge/Supabase-282C34?logo=supabase&logoColor=3FCF8E" alt="Supabase logo" title="Supabase" height="30" /></span>
 &nbsp;
 <span><img src="https://img.shields.io/badge/MongoDB-282C34?logo=mongodb&logoColor=47A248" alt="MongoDB logo" title="MongoDB" height="30" /></span>
+&nbsp;
+<span><img src="https://img.shields.io/badge/Figma-282C34?logo=figma&logoColor=1062FB" alt="Figma logo" title="Figma" height="30" /></span>
 &nbsp;
 <span><img src="https://img.shields.io/badge/Tailwind%20CSS-282C34?logo=tailwind-css&logoColor=38B2AC" alt="TailwindCSS logo" title="TailwindCSS" height="30" /></span>
 &nbsp;
