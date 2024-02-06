@@ -1,6 +1,10 @@
 # Hi there, I'm Dustin! 👋
 
-I'm a passionate full-stack developer based in Louisiana 🐊 <br><br>
+
+⚡ Frontend developer currently learning the backend
+
+
+👨🏼‍💻 I work as a Developer Advocate for [Team Treehouse](https://www.teamtreehouse.com)
 
 
 💡 **I’m looking to collaborate on:** Open source projects & web development challenges!
