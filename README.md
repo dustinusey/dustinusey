@@ -1,9 +1,12 @@
 # Hi there, I'm Dustin! 👋
 
 I'm a passionate full-stack developer based in Louisiana 🐊 <br><br>
-Unlike a lot of developers, I actually really love CSS! I only just recently decided to start using libraries and frameworks. While I can respect the speed and ease-of-use of libraries, I pride myself on the foundational understanding of CSS and how it works.
+
 
 💡 **I’m looking to collaborate on:** Open source projects & web development challenges!
+
+⚡ Fun fact about me: Unlike a lot of developers, I actually really love CSS! I only just recently decided to start using libraries and frameworks. While I can respect the speed and ease-of-use of libraries, I pride myself on the foundational understanding of CSS and how it works.
+
 
 <h2>🛠 Technologies and Tools 🛠</h2>
 <br>
