@@ -22,6 +22,8 @@ I'm a passionate full-stack developer based in Louisiana 🐊 <br><br>
 &nbsp;
 <span><img src="https://img.shields.io/badge/Supabase-282C34?logo=supabase&logoColor=3FCF8E" alt="Supabase logo" title="Supabase" height="30" /></span>
 &nbsp;
+<span><img src="https://img.shields.io/badge/Firebase-282C34?logo=firebase&logoColor=FFCA28" alt="Firebase logo" title="Firebase" height="30" /></span>
+&nbsp;
 <span><img src="https://img.shields.io/badge/MongoDB-282C34?logo=mongodb&logoColor=47A248" alt="MongoDB logo" title="MongoDB" height="30" /></span>
 &nbsp;
 <span><img src="https://img.shields.io/badge/Figma-282C34?logo=figma&logoColor=1062FB" alt="Figma logo" title="Figma" height="30" /></span>
@@ -43,8 +45,6 @@ I'm a passionate full-stack developer based in Louisiana 🐊 <br><br>
 <span><img src="https://img.shields.io/badge/GitHub-282C34?logo=github&logoColor=181717" alt="github logo" title="github" height="30" /></span>
 &nbsp;
 <span><img src="https://img.shields.io/badge/VS%20Code-282C34?logo=visual-studio-code&logoColor=007ACC" alt="Visual Studio Code logo" title="Visual Studio Code" height="30" /></span>
-&nbsp;
-<span><img src="https://img.shields.io/badge/Firebase-282C34?logo=firebase&logoColor=FFCA28" alt="Firebase logo" title="Firebase" height="30" /></span>
 
 
 ---
