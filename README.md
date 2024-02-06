@@ -1,16 +1,27 @@
-### Hi there 👋
+# Hi there, I'm Dustin! 👋
 
-<!--
-**dustinusey/dustinusey** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a passionate full-stack developer based in [Louisiana] 🤓
 
-Here are some ideas to get you started:
+🚀 **Skills:**
+- Frontend: HTML, CSS, SASS, JavaScript, React, Tailwindcss
+- Backend: Node.js, Express, Subabase, Firebase
+- Other Tech: Git, RESTful APIs, Flowbite, MaterialUI, SHADCN
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+💡 **I’m looking to collaborate on:** Open source projects & web development challenges!
+
+---
+
+## 🌐 Find me around the web
+
+- [Twitter](https://www.twitter.com/codewdustin)
+- [Instagram](https://www.instagram.com/codewdustin)
+
+---
+
+## 📈 GitHub Stats
+
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dustinusey&layout=compact&theme=light)](https://github.com/dustinusey)
+
+---
+
