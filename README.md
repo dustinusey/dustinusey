@@ -58,7 +58,7 @@ I'm a passionate full-stack developer based in [Louisiana] 🤓
 ## 📈 GitHub Stats
 
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dustinusey&layout=compact&theme=light)](https://github.com/dustinusey)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dustinusey&layout=compact&theme=dark)](https://github.com/dustinusey)
 
 ---
 
