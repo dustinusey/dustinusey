@@ -1,10 +1,6 @@
 # Hi there, I'm Dustin! 👋
 
-
-⚡ Frontend developer currently learning the backend
-
-
-👨🏼‍💻 I work as a Developer Advocate for [Team Treehouse](https://www.teamtreehouse.com)
+👨🏼‍💻 I work as a Developer Advocate and teach Frontend Development for [Team Treehouse](https://www.teamtreehouse.com)
 
 
 💡 **I’m looking to collaborate on:** Open source projects & web development challenges!
