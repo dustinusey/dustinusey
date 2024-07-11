@@ -49,13 +49,6 @@
 
 ---
 
-## 🌐 Find me around the web
-
-- [Twitter](https://www.twitter.com/codewdustin)
-- [Instagram](https://www.instagram.com/codewdustin)
-
----
-
 ## 📈 GitHub Stats
 
 
